@@ -2,6 +2,8 @@
 
 Spatio-temporal graph neural network (GAT + LSTM) for Formula 1 lap time prediction and race strategy simulation using FastF1 telemetry.
 
+![F1 ST-GNN Dashboard Demo](assets/demo.gif)
+
 ## Overview
 
 This project models Formula 1 races as dynamic spatio-temporal graphs. At each lap, cars are represented as nodes with 11 telemetry, tyre, and track-condition features, while proximity edges (`< 25m`) capture real-time traffic and slipstream interactions. A Graph Attention Network (GAT) extracts spatial race context, and an LSTM models temporal degradation and pace evolution across laps.
