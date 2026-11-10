@@ -1,0 +1,26 @@
+#Virtual environment
+venv_f1_gnn/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+#FastF1 cache
+cache/
+f1_cache/
+*.ff1pkl
+
+#OS and IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#Environment variables and logs
+.env
+*.log
+
+
+*.egg-info/

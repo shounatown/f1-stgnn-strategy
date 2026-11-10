@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "f1_strategy_ai"
+version = "0.1.0"
+description = "ST-GNN for F1 traffic and strategy prediction"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastf1>=3.1.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "torch>=2.0.0",
+    "torch-geometric>=2.3.0",
+    "plotly>=5.14.0",
+    "fastapi>=0.95.0",
+    "streamlit>=1.22.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
