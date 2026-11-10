@@ -2,7 +2,7 @@
 
 Spatio-temporal graph neural network (GAT + LSTM) for Formula 1 lap time prediction and race strategy simulation using FastF1 telemetry.
 
-![F1 ST-GNN Dashboard Demo](assets/demo.gif)
+![F1 ST-GNN Dashboard Demo](assets/test1.gif)
 
 ## Overview
 
